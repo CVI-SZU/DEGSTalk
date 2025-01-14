@@ -153,3 +153,17 @@ python synthesize_fuse.py -S data/<ID> -M output/<project_name> --use_train --au
 ## Acknowledgement
 
 This code is developed based on [TalkingGaussian](https://github.com/Fictionarry/TalkingGaussian), [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) with [simple-knn](https://gitlab.inria.fr/bkerbl/simple-knn), and a modified [diff-gaussian-rasterization](https://github.com/ashawkey/diff-gaussian-rasterization). It also integrates partial code from [RAD-NeRF](https://github.com/ashawkey/RAD-NeRF), [GeneFace](https://github.com/yerfor/GeneFace), [DFRF](https://github.com/sstzal/DFRF), [DFA-NeRF](https://github.com/ShunyuYao/DFA-NeRF/), [AD-NeRF](https://github.com/YudongGuo/AD-NeRF), and [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch). Additionally, the teeth mask is sourced from [EasyPortrait](https://github.com/hukenovs/easyportrait), and expression coefficients are from [Smirk](https://github.com/georgeretsi/smirk). We extend our gratitude to these outstanding projects for their valuable contributions.
+
+## Citation
+
+Consider citing as below if you find this repository helpful to your project:
+
+```
+@inproceedings{deng2025degstalk,
+      title = {DEGSTalk: Decomposed Per-Embedding Gaussian Fields for Hair-Preserving Talking Face Synthesis}, 
+      author = {Kaijun Deng and Dezhi Zheng and Jindong Xie and Jinbao Wang and Weicheng Xie and Linlin Shen and Siyang Song},
+      year = {2025},
+      booktitle = {ICASSP 2025}
+}
+```
+
