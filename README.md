@@ -159,11 +159,16 @@ This code is developed based on [TalkingGaussian](https://github.com/Fictionarry
 Consider citing as below if you find this repository helpful to your project:
 
 ```
-@inproceedings{deng2025degstalk,
-      title = {DEGSTalk: Decomposed Per-Embedding Gaussian Fields for Hair-Preserving Talking Face Synthesis}, 
-      author = {Kaijun Deng and Dezhi Zheng and Jindong Xie and Jinbao Wang and Weicheng Xie and Linlin Shen and Siyang Song},
-      year = {2025},
-      booktitle = {ICASSP 2025}
+@INPROCEEDINGS{deng2025degstalk,
+  author={Deng, Kaijun and Zheng, Dezhi and Xie, Jindong and Wang, Jinbao and Xie, Weicheng and Shen, Linlin and Song, Siyang},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={DEGSTalk: Decomposed Per-Embedding Gaussian Fields for Hair-Preserving Talking Face Synthesis}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Hair;Training;Three-dimensional displays;Dynamics;Signal processing;Rendering (computer graphics);Noise measurement;Speech processing;Faces;Videos;3D Gaussian Splatting;Talking Face Synthesis;Pre-Embedding;Hair-Preserving},
+  doi={10.1109/ICASSP49660.2025.10890278}
 }
 ```
 
